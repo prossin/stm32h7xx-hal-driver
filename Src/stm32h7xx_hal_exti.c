@@ -95,14 +95,14 @@
 
     (#) Get current Exti configuration of a dedicated line using
         HAL_EXTI_GetConfigLine().
-        (++) Provide exiting handle as parameter.
+        (++) Provide Exti handle as parameter.
         (++) Provide pointer on EXTI_ConfigTypeDef structure as second parameter.
 
     (#) Clear Exti configuration of a dedicated line using HAL_EXTI_ClearConfigLine().
-        (++) Provide exiting handle as parameter.
+        (++) Provide Exti handle as parameter.
 
     (#) Register callback to treat Exti interrupts using HAL_EXTI_RegisterCallback().
-        (++) Provide exiting handle as first parameter.
+        (++) Provide Exti handle as first parameter.
         (++) Provide which callback will be registered using one value from
              EXTI_CallbackIDTypeDef.
         (++) Provide callback function pointer.
